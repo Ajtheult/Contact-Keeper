@@ -79,14 +79,11 @@ const ContactState = (props) => {
       value={{
         contacts: state.contacts,
         current: state.current,
-        filtered: state.filtered,
         addContact,
         deleteContact,
         setCurrent,
         clearCurrent,
         updateContact,
-        filterContact,
-        clearFilter,
       }}
     >
       {props.children}
