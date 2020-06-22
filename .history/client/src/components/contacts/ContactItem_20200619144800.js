@@ -12,7 +12,6 @@ const ContactItem = ({ contact }) => {
     deleteContact(_id);
     clearCurrent();
   };
-  // console.log(contact);
 
   return (
     <div className="card bg-light">
@@ -32,11 +31,6 @@ const ContactItem = ({ contact }) => {
         {email && (
           <li>
             <i className="fas fa-enveloped-open"></i> {email}
-          </li>
-        )}
-        {phone && (
-          <li>
-            <i className="fas fa-phone" /> {phone}
           </li>
         )}
       </ul>

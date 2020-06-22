@@ -33,7 +33,7 @@ const ContactForm = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-
+    console.error(contact);
     if (current === null) {
       addContact(contact);
     } else {

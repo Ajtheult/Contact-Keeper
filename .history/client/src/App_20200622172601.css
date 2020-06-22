@@ -19,7 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-image: url(https://cdn.pixabay.com/photo/2017/07/08/11/33/white-2484120_960_720.png);
+  background-image: url(https://cdn.pixabay.com/photo/2014/04/05/11/39/rain-316580_1280.jpg);
   color: #333;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: rgb(155, 58, 58)155, 58, 58);
 }
 
 ul {

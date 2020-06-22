@@ -8,7 +8,7 @@ const Contacts = () => {
   const contactContext = useContext(ContactContext);
 
   const { contacts, filtered, getContacts, loading } = contactContext;
-  // console.log(contacts, filtered);
+  console.log(contacts, filtered);
 
   useEffect(() => {
     getContacts();

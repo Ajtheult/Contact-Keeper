@@ -12,7 +12,6 @@ const ContactItem = ({ contact }) => {
     deleteContact(_id);
     clearCurrent();
   };
-  // console.log(contact);
 
   return (
     <div className="card bg-light">
